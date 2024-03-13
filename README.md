@@ -28,10 +28,12 @@ Essa análise exploratória será feita utilizando Excel e Power Query, ferramen
 
 Passo 1: Abrir um Excel vazio e carregar os dados a partir das sinalizações das imagens abaixo (Figura 1 e 2):
 
-Figura1: 
+### Figura1: 
+
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/907a84d7-24b0-4001-94cb-986e0b13e5b9)
 
-Figura2:
+### Figura2:
+
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/a4157979-76f4-45e8-9592-3a161586f1cb)
 
 
