@@ -115,21 +115,37 @@ E repetimos para as demais colunas que sinalizamos que precisam ser excluídas.
 ### Passo 4: Identificar o tipo de dado de cada coluna 
 
 •	Item Code: texto
+
 •	Item Description: texto
+
 •	Part No.: texto
+
 •	Part Description: texto
+
 •	Model: texto
+
 •	Spare Part Type: texto
+
 •	Location: texto
+
 •	Specify: texto
-•	Part Category: texto•	
+
+•	Part Category: texto
+
 •	Min Nos: número inteiro
+
 •	Max Nos: número inteiro
+
 •	Minimum Price Per Nos (RM): número decimal
+
 •	Maximum Price Per Nos (RM): número decimal
+
 •	Brand: texto
+
 •	Status: texto
+
 •	Expiry Age (In Month): número inteiro 
+
 •	Current Stock Level: número inteiro
 
 ### Passo 5: Tratamento, substituição e transformação de dados/colunas
@@ -227,8 +243,37 @@ Então, teremos o seguinte resultado (Figura 17):
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/e5fd12b1-3499-40b8-a1d0-a0dd95c06b59)
 
 
+Agora, para transformarmos essa tabelinha em um gráfico de barras por exemplo, podemos eliminar a categoria "vazio" a partir do Filtro. Depois disso, podemos ir na opção Inserir e selecionar a coluna conforme indicação da Figura 18:
+
+### Figura 18:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/74ba7f97-4bc2-4b6d-96d2-646caae86bd0)
+
+O resultado obtido é este gráfico de colunas que consta na imagem abaixo (Figura 19): 
+
+### Figura 19:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/c43b267f-e200-433d-8ef0-a244a1d2be75)
+
+No entanto, considerando que ele está poluído, vamos fazer algumas tratativas nele. No lado superior direito, temos a opção Botões de Campos (Figura 20).
+
+Ao clicar nela, podemos selecionar a opção Ocultar tudo (Figura 21). 
+
+### Figura 20: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7e7a4785-6d31-4b15-9476-5a384c879156)
+
+### Figura 21: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/ecafc510-19f7-4557-90b7-d5594aa1ca53)
 
 
+Assim, nosso gráfico perde os botões de campos e filtros e fica mais limpo conforme imagem abaixo (Figura 22):
+
+### Figura 22:
+
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/159147a7-a490-4b27-a712-eb41e4ca9719)
 
 
 
