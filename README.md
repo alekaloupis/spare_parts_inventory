@@ -26,7 +26,7 @@ c) As peças one-off são mais difíceis de serem obtidas do que as peças das d
 
 Essa análise exploratória será feita utilizando Excel e Power Query, ferramentas cuja versatilidade e intuitividade favorecem a obtenção de rápidas respostas. 
 
-Passo 1: Abrir um Excel vazio e carregar os dados a partir das sinalizações das imagens abaixo (Figuras 1 e 2):
+### Passo 1: Abrir um Excel vazio e carregar os dados a partir das sinalizações das imagens abaixo (Figuras 1 e 2):
 
 ##### Figura1: 
 
@@ -39,7 +39,7 @@ Passo 1: Abrir um Excel vazio e carregar os dados a partir das sinalizações da
 
 Ao carregar os dados, iremos ser direcionados para o editor do Power Query
 
-Passo 2: Entender cada coluna do dataset disponível
+### Passo 2: Entender cada coluna do dataset disponível
 
 •	Item Code: código da categoria da peça
 
