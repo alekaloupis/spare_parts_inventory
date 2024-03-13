@@ -12,7 +12,7 @@ das mesmas.
 
 Então, com o objetivo de mapear a condição das peças dessa categoria disponíveis no inventário, a gestão hospitalar solicitou uma análise exploratória a partir do inventário.
 
-#2. Hipóteses 
+# 2. Hipóteses 
 
 a) As peças one-off são mais caras na média que as peças das demais categorias
 
@@ -20,9 +20,9 @@ b) Há uma menor quantiddade de peças one-off no inventário do que peças das 
 
 c) As peças one-off são mais difíceis de serem obtidas do que as peças das demais categorias. 
 
-#3. Solução
+# 3. Solução
 
-#3.1 Carga e tratamento dos dados
+### 3.1 Carga e tratamento dos dados
 
 Essa análise exploratória será feita utilizando Excel e Power Query, ferramentas cuja versatilidade e intuitividade favorecem a obtenção de rápidas respostas. 
 
