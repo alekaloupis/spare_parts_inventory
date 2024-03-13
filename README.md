@@ -140,7 +140,12 @@ Ainda no editor do Power Query, na guia da Página Inicial, temos a opção Subs
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/44948d8a-57cd-43dc-aad7-8066dbfa3e85)
 
-Então, na coluna Specify, vamos alterar o valor de null para not specified
+Então, na coluna Specify, vamos alterar o valor de null para not specified. Além disso, nessa mesma coluna, identificamos que temos dois valores quase iguais, a saber "Vendor – By Purchase Order" e "Vendor By Purchase Order". Obtemos essa informação, ao clicar com o botão esquerdo nessa coluna (Figura 6). Então, iremos optar por substituir esses valores e unificar tudo na categoria de Vendor By Purchase Order.
+
+### Figura 6: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7266a221-53b7-4e33-a87c-e41a32a7600f)
+
 
 
 
