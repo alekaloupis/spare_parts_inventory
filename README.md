@@ -4,12 +4,14 @@ dataset: https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-part
 
 # 1. Questão de negócio 
 
-Nos últimos meses, houveram duas  interrupções na assistência aos pacientes devido à danificação de partes ou equipamentos médicos da instituição.
-Além disso, foi mapeado que esses transtornos estavam relacionadas à danificação de peças one-off, peças consideradas raras e com processo de fabricação mais específico. Sendo que a danificação das peças em uso e a dificuldade de reposição das mesmas seja pela ausência em estoque ou dificuldade de acesso/obtenção, impactaram na retomada do atendimento. 
+Nos últimos meses, houveram duas interrupções na assistência aos pacientes devido à danificação de peças de equipamentos médicos da instituição.
+Além disso, foi mapeado que esses transtornos estavam relacionadas à danificação de peças one-off, consideradas raras e com processo de fabricação mais específico. 
 
-A gestão hospitalar necessita mapear se a instituição está em uma condição de vulnerabilidade em relação a essas peças one-off. Sendo que alguns indicativos de vulnerabilidade seriam: dificuldade de acesso às peças, baixo estoque ou alto custo de aquisição das mesmas.
+Sendo que a danificação das peças em uso e a não imediata reposição das mesmas seja pela ausência em estoque ou dificuldade de acesso/obtenção, impactaram na retomada do atendimento. 
 
-A instituição possui um inventário das peças sobressalentes disponíveis, a saber peças que ficam em estoque e disponíveis para substituição das peças em uso. A fim de constatar uma possível vulnerabilidade da instituição em relação às peças sobressalentes de tipo one-off, será feita uma análise exploratória.
+A gestão hospitalar necessita mapear se a instituição está em uma condição de vulnerabilidade em relação a essas peças one-off. Sendo que alguns indicativos dessa condição seriam: dificuldade de acesso às peças, baixo estoque ou alto custo de aquisição.
+
+Há um inventário das peças sobressalentes, a saber peças que ficam em estoque e disponíveis para substituição das peças em uso. A fim de constatar uma possível vulnerabilidade da instituição em relação às peças sobressalentes de tipo one-off, será feita uma análise exploratória.
 
 # 2. Hipóteses 
 
@@ -52,7 +54,7 @@ Ao carregar os dados, iremos ser direcionados para o editor do Power Query
 
 •	Unit Of Measurement: unidade de medida da peça
 
-•	Spare Part Type: tipo da peça sobressalente
+•	Spare Part Type: tipo da peça sobressalente (Essa coluna envolve a categoria chave da nossa análise exploratória)
 
       Fast Moving Item – item de rápida movimentação
       Just in Time – Ajustado ao tempo
