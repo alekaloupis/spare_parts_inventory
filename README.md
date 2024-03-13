@@ -90,7 +90,7 @@ Ao carregar os dados, iremos ser direcionados para o editor do Power Query
 
 •	Current Stock Level: nível do estoque atual
 
-Passo 3: Remover colunas desnecessárias
+### Passo 3: Remover colunas desnecessárias
 
 Nessa análise iremos optar por excluir as seguintes colunas
 
