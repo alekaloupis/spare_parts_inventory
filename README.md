@@ -166,8 +166,11 @@ Neste caso, vamos utilizar uma lógica de if/else, comparando as colunas Currren
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/bb9b6d8b-4c2e-4d83-98ef-7d521ab3388a)
 
+Terminadas os tratamentos, podemos finalmente clicar na opção Fechar e carregar conforme sinaliza a imagem abaixo:
 
+### Figura 9:
 
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/0a50b642-f606-461f-944f-6cde6cf5ec91)
 
 
 
