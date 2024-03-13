@@ -207,11 +207,16 @@ Para obter os dados da distribuição das categorias das peças, podemos mover p
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/772d0df3-a55b-4e2c-b19d-af00324a7c44)
 
 
+Como opção, podemos alterar a forma como esses valores serão apresentados na tabela. Para isso, podemos clicar com o botão esquerdo no campo Contagem de Item Code - Configurações do Campo de Valor - Mostrar valores como - % do Total Geral (ver Figuras 15 e 16):
 
 
+### Figura 15:
 
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/29c636ac-e253-413c-b4aa-2fa5ba5667ae)
 
+### Figura 16:
 
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/8b2c6058-078c-4d87-9ac5-64b81c4aeb56)
 
 
 
