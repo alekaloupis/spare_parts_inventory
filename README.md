@@ -4,13 +4,12 @@ dataset: https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-part
 
 # 1. Questão de negócio 
 
-Nos últimos meses, houveram algumas interrupções na assistência aos pacientes devido à danificação de partes ou equipamentos médicos da instituição.
-Além disso, foi mapeado que esses transtornos estavam relacionadas às peças one-off, consideradas peças únicas ou raras, que para serem fabricadas exigem processos mais específicos.
+Nos últimos meses, houveram duas  interrupções na assistência aos pacientes devido à danificação de partes ou equipamentos médicos da instituição.
+Além disso, foi mapeado que esses transtornos estavam relacionadas à danificação de peças one-off, peças consideradas raras e com processo de fabricação mais específico. Sendo que a danificação das peças em uso e a dificuldade de reposição das mesmas seja pela ausência em estoque ou dificuldade de acesso/obtenção, impactaram na retomada do atendimento. 
 
-A gestão hospitalar necessita mapear se a instituição está em uma condição de vulnerabilidade em relação a essas peças one-off caracterizada pelas dificuldades de acesso, baixo estoque ou alto custo de aquisição
-das mesmas.
+A gestão hospitalar necessita mapear se a instituição está em uma condição de vulnerabilidade em relação a essas peças one-off. Sendo que alguns indicativos de vulnerabilidade seriam: dificuldade de acesso às peças, baixo estoque ou alto custo de aquisição das mesmas.
 
-Então, com o objetivo de mapear a condição das peças dessa categoria disponíveis no inventário, a gestão hospitalar solicitou uma análise exploratória a partir do inventário.
+A instituição possui um inventário das peças sobressalentes disponíveis, a saber peças que ficam em estoque e disponíveis para substituição das peças em uso. A fim de constatar uma possível vulnerabilidade da instituição em relação às peças sobressalentes de tipo one-off, será feita uma análise exploratória.
 
 # 2. Hipóteses 
 
