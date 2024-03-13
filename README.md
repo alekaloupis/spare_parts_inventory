@@ -110,6 +110,8 @@ Para excluir, podemos utilizar a opção apresentada na figura abaixo (Figura 3)
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/4879a402-945a-408d-b77d-fb64d65ac4d8)
 
+E repetimos para as demais colunas que sinalizamos que precisam ser excluídas.
+
 ### Passo 4: Identificar o tipo de dado de cada coluna 
 
 •	Item Code: texto
@@ -218,6 +220,10 @@ Como opção, podemos alterar a forma como esses valores serão apresentados na 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/8b2c6058-078c-4d87-9ac5-64b81c4aeb56)
 
+Então, teremos o seguinte resultado: 
+
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/e5fd12b1-3499-40b8-a1d0-a0dd95c06b59)
 
 
 
