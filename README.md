@@ -108,7 +108,39 @@ Para excluir, podemos utilizar a opção apresentada na figura abaixo (Figura 3)
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/4879a402-945a-408d-b77d-fb64d65ac4d8)
 
+### Passo 4: Identificar o tipo de dado de cada coluna 
 
+•	Item Code: texto
+•	Item Description: texto
+•	Part No.: texto
+•	Part Description: texto
+•	Model: texto
+•	Spare Part Type: texto
+•	Location: texto
+•	Specify: texto
+•	Part Category: texto•	
+•	Min Nos: número inteiro
+•	Max Nos: número inteiro
+•	Minimum Price Per Nos (RM): número decimal
+•	Maximum Price Per Nos (RM): número decimal
+•	Brand: texto
+•	Status: texto
+•	Expiry Age (In Month): número inteiro 
+•	Current Stock Level: número inteiro
+
+### Passo 5: Tratamento, substituição e transformação de dados/colunas
+
+Ainda no editor do Power Query, na guia da Página Inicial, temos a opção Substituir valores (Figura 4). Na janela de edição, temos a opção de Valor a Ser Localizado e Substituir por (Figura 5).
+
+### Figura 4: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/2ba93139-50ef-41f4-8185-3f3f5f29b330)
+
+### Figura 5: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/44948d8a-57cd-43dc-aad7-8066dbfa3e85)
+
+Então, na coluna Specify, vamos alterar o valor de null para not specified
 
 
 
