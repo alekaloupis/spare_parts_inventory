@@ -36,6 +36,9 @@ Passo 1: Abrir um Excel vazio e carregar os dados a partir das sinalizações da
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/a4157979-76f4-45e8-9592-3a161586f1cb)
 
+
+Ao carregar os dados, iremos ser direcionados para o editor do Power Query
+
 Passo 2: Entender cada coluna do dataset disponível
 
 •	Item Code: código da categoria da peça
@@ -51,16 +54,19 @@ Passo 2: Entender cada coluna do dataset disponível
 •	Unit Of Measurement: unidade de medida da peça
 
 •	Spare Part Type: tipo da peça sobressalente
+
       Fast Moving Item – item de rápida movimentação
       Just in Time – Ajustado ao tempo
       One Off – Peça rara/única
 	
 •	Location: locação
+
       Company Site Office – escritório local da empresa
       Centralized – Centralizada 
       Others - Outros
       
 •	Specify: especificação da peça / forma pela qual a peça é adquirida
+
       Vendor by Purchase Order – fornecedor por ordem de compra
       Not Specified – Não especificado
       
@@ -83,5 +89,49 @@ Passo 2: Entender cada coluna do dataset disponível
 •	Expiry Age (In Month): data de validade da peça
 
 •	Current Stock Level: nível do estoque atual
+
+Passo 3: Remover colunas desnecessárias
+
+Nessa análise iremos optar por excluir as seguintes colunas
+
+•	Unit of measurement: temos apenas uma informação neste dataset. Todas as colunas estão preenchidas com o dado “unit”, o quê significa que todas as peças estão em formato de unidade. Uma vez que o analista já compreendeu este dado, já podemos excluí-lo.
+
+•	Part category:  temos apenas uma informação neste dataset. Todas as colunas estão preenchidas com o dado “biomedical”, o quê significa que todas as peças são do tipo biomédico. Vamos utilizar o mesmo raciocínio utilizado no item anterior, a saber uma vez que já compreendemos esta informação, já podemos excluir esta coluna.
+
+
+•	Status: temos apenas uma informação neste dataset. Todas as colunas estão preenchidas com o dado “active”, a saber todas as peças do inventário estão ativas. Então, já podemos excluir essa coluna.
+
+•	Is Expiry Data Required: não foi possível identificar o conteúdo dessa coluna. Portanto, iremos optar pela exclusão.
+
+Para excluir, podemos utilizar a opção apresentada na figura abaixo (Figura 3): 
+
+##### Figura3:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/4879a402-945a-408d-b77d-fb64d65ac4d8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
