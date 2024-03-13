@@ -26,10 +26,11 @@ c) As peças one-off são mais difíceis de serem obtidas do que as peças das d
 
 Essa análise exploratória será feita utilizando Excel e Power Query, ferramentas cuja versatilidade e intuitividade favorecem a obtenção de rápidas respostas. 
 
-Passo 1: Abrir um Excel vazio e carregar os dados a partir da sinalização da imagem abaixo:
+Passo 1: Abrir um Excel vazio e carregar os dados a partir das sinalizações da imagem abaixo:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/907a84d7-24b0-4001-94cb-986e0b13e5b9)
 
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/a4157979-76f4-45e8-9592-3a161586f1cb)
 
 
 
