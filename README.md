@@ -147,8 +147,24 @@ Então, na coluna Specify, vamos alterar o valor de null para not specified. Al�
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7266a221-53b7-4e33-a87c-e41a32a7600f)
 
 
+Uma das nossas hipóteses levantadas sugere que investiguemos a capacidade de estoque das peças sobressalentes. Ora, se o valor da coluna
+"Current Stock Level" for menor que o mínimo valor em estoque, dado pela coluna "Min Nos", então podemos concluir que não temos o mínimo de peças em estoque. 
+
+Sendo assim, vamos criar essa coluna calculada em nosso dataset "Current Stock Level Has Min?" - valores: Same/Yes/No. 
 
 
+Podemos criar essa coluna, selecionando a opção Coluna Personalizada da aba Adicionar coluna do nosso editor do Power Query (Figura 7). Em seguida, será habilitada a janela para criarmos a coluna utilizando linguagem M (Figura 8). 
+
+Neste caso, vamos utilizar uma lógica de if/else, comparando as colunas Currrent Stock Level e Min Nos. Após criar a lógica, clicamos em “ok” para criar a coluna.
+
+### Figura 7: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/b88c3296-de4d-4857-86a7-b3088e1477bc)
+
+
+### Figura 8: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/bb9b6d8b-4c2e-4d83-98ef-7d521ab3388a)
 
 
 
