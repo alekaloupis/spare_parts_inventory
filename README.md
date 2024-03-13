@@ -174,8 +174,37 @@ Terminadas os tratamentos, podemos finalmente clicar na opção Fechar e carrega
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/0a50b642-f606-461f-944f-6cde6cf5ec91)
 
+Ao Fechar a Carregar, abrimos uma aba da Planilha e podemos remomeá-la para dataset conforme sinaliza a Figura 10 abaixo:
 
 
+### Figura 10:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/44833a9b-b432-49c5-8ebc-0880e57e8030)
+
+
+### 3.2 Análise exploratória 
+
+Essencialmente, faremos essa análise exploratória, utilizando os recursos de Tabela Dinâmica e plotagem de gráficos e visualizações.
+
+Vamos começar entendendo a distribuição das categorias das peças em relação ao total. Para tanto vamos inserir uma Tabela Dinâmica conforme sinaliza a Figura 11 abaixo. Em seguida, podemos selecionar a opção de criar essa tabela em uma nova planilha conforme indica a Figura 12:
+
+### Figura 11:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/bd2766b6-5bc6-4fed-88bd-1ba2d0a30a0d)
+
+### Figura 12:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/d888d3df-b710-42b5-90ed-c5fc9e1c864f)
+
+Para obter os dados da distribuição das categorias das peças, podemos mover para o campo de linhas a coluna Spare Part Type e para o valores a coluna Item Code por exemplo (ver Figura 13). E então, obtemos o resultado em tabela que consta na Figura 14.
+
+### Figura 13:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/3e63c558-05f4-4e43-b78f-abbe79038a44)
+
+### Figura 14:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/772d0df3-a55b-4e2c-b19d-af00324a7c44)
 
 
 
