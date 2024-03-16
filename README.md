@@ -332,6 +332,33 @@ E eis o resultado obtido (Figura 30):
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/00659ede-bab2-406d-9b05-417f2b0d7bbc)
 
+Além disso, desejamos retirar a legenda do lado direito (Total). Para isso, podemos selecionar o retângulo no qual essa legenda está e deletar. 
+
+O resultado será esse (Figura 31). O que fica notório é que as barras começam a ocupar uma área maior da figura no momento que excluímos a legenda.
+
+### Figura 31: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/25711d26-4edb-45ce-a660-17ba84ee3c64)
+
+Clicando na caixa do título, podemos alterar a sua formatação, incluindo outra letra, tamanho. No caso abaixo, trocamos o conteúdo do título a letra de Calibri para Arial, negrito e tamanho 18 (ver Figura 32). 
+
+### Figura 32: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/c8848a5c-efa0-49cd-8b0a-ab7a5ffe32e7)
+
+Após uma breve pesquisa, identificamos que para alterar a ordem de disposição das colunas da tabela, podemos prosseguir da seguinte forma. 
+
+Dado as barras do gráfico, clicamos com Botão direito - Classificar - Classificar do Maior para o Menor (ver Figura 33).
+
+### Figura 33:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/31945508-c34b-45b4-9442-d7536d2dbf5f)
+
+
+
+
+
+
 
 
 
