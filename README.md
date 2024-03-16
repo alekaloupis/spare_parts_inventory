@@ -17,7 +17,7 @@ Há um inventário das peças sobressalentes, a saber peças que ficam em estoqu
 
 a) As peças one-off são mais caras na média que as peças das demais categorias
 
-b) Há uma menor quantiddade de peças one-off no inventário do que peças das demais categorias
+b) Há uma menor quantidade de peças one-off no inventário do que peças das demais categorias
 
 c) As peças one-off são mais difíceis de serem obtidas do que as peças das demais categorias. 
 
@@ -437,7 +437,35 @@ Para os propósitos dessa análise, vamos chamá-lo de Gráfico 1.
 
 ## 3.2.2 Quantity x Spare Part Type x Location
 
+Nesse segundo momento de nossa análise exploratória, iremos investigar a relaçaõ entre o tipo de peça sobressalente e a localização. Retomando o entendimento dessa coluna, cada categoria significa o seguinte:
 
+	company site office: escritório local da empresa (indicativo de facilidade da obtenção da peça)
+
+  	centralized: centralizada (peça alocada em local centralizada, possivelmente alguma matriz ou local especializado para armazenamento 
+
+    	others: não especificado. 
+     
+A diferença desta análise será que incluiremos duas hierarquias em nossa análise, a saber spare part type e location e daí calcular as quantidades de peças. Então, em nossa Tabela Dinâmica, incluiremos duas categorias nossas linhas, a saber as próprias colunas spare part type e location. O resultado será uma tabela com dois níveis de análise (ver Figura 44):
+
+### Figura 44:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/6fd4b4bc-06a9-4f57-aa81-a982394c19b6)
+
+Consequentemente, o gráfico derivado dessa tabela terá a seguinte disposição (ver Figura 45). 
+
+### Figura 45: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/993905f4-6b7b-4015-b37b-bba103b36522)
+
+Então, prosseguiremos com as formatações e limpezas necessárias que aplicamos no gráfico da análise anterior, a saber limpar campos, retirar linhas verticais, alteração de fonte, inclusão de rótulos de dados
+
+
+
+
+
+
+
+     
 
 
 
