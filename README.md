@@ -501,8 +501,11 @@ Sendo assim, o significado da categoria Others da coluna LOCATION possivelmente 
 
 ## 3.2.3 Quantity x Spare Part Type x Specify
 
+Nessa análise, aplicaremos rigorosamente as mesmas regras de formatação das que foram aplicadas na análise anterior, resultando no seguinte gráfico (Gráfico 3), ver figura 52 que é semelhante ao gráfico 2
 
+### Figura 52: 
 
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/dee7c97b-480c-4f04-ab3b-0f21c880af0f)
 
 
 
