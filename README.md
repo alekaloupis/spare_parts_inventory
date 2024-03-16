@@ -11,7 +11,7 @@ Sendo que a danificação das peças em uso e a não imediata reposição das me
 
 A gestão hospitalar necessita mapear se a instituição está em uma condição de vulnerabilidade em relação a essas peças one-off. Sendo que alguns indicativos dessa condição seriam: dificuldade de acesso às peças, baixo estoque ou alto custo de aquisição.
 
-Há um inventário das peças sobressalentes, a saber peças que ficam em estoque e disponíveis para substituição das peças em uso. A fim de constatar uma possível vulnerabilidade da instituição em relação às peças sobressalentes de tipo one-off, será feita uma análise exploratória.
+Há um inventário das peças sobressalentes, a saber peças que ficam em estoque e disponíveis para substituição das peças em uso. A fim de constatar uma possível vulnerabilidade da instituição em relação às peças sobressalentes de tipo one-off, será feita uma análise exploratória dos dados desse inventário
 
 # 2. Hipóteses 
 
