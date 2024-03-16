@@ -425,10 +425,15 @@ Para finalizar, selecionaremos o gráfico e alteraremos a borda com preenchiment
 
 E este será nosso resultado final do gráfico Quantity x Spare Part Type (Figura 43):
 
-
 ### Figura 43:
 
-![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/1143152d-39be-4a4d-8c7c-5ca5aecd404c)
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/f3b43ad8-7554-4f66-81c2-6bf0be2240d1)
+
+Para os propósitos dessa análise, vamos chamá-lo de Gráfico 1. 
+
+
+
+
 
 
 
