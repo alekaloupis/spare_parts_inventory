@@ -410,14 +410,22 @@ Nessa primeira etapa de formatação, obtemos a seguinte figura (ver Figura 40).
 
 Por fim, aplicaremos as mesmas regras de formatação para a barra da categoria Fast Moving Item. No caso da categoria One-Off, iremos realçá-la com uma cor cinza mais escura e a borda preta. 
 
-O resultado final de nosso gráfico será este (ver Figura 41): 
+O resultado de nosso gráfico após essa etapa será este (ver Figura 41): 
 
 
 ### Figura 41:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/dcc50ea2-41bc-4d99-9209-5032fa240aba)
 
+Para finalizar, selecionaremos o gráfico e alteraremos a borda com preenchimento de Linha Sólida e Cor Preta (Figura 42):
 
+### Figura 42: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/c93abe46-93ce-4b3c-8767-dbf167616edf)
+
+E este será nosso resultado final do gráfico Quantity x Spare Part Type
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/1143152d-39be-4a4d-8c7c-5ca5aecd404c)
 
 
 
