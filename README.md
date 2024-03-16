@@ -204,7 +204,11 @@ Ao Fechar a Carregar, abrimos uma aba da Planilha e podemos remomeá-la para dat
 
 Essencialmente, faremos essa análise exploratória, utilizando os recursos de Tabela Dinâmica e plotagem de gráficos e visualizações.
 
-Vamos começar entendendo a distribuição das categorias das peças em relação ao total. Para tanto vamos inserir uma Tabela Dinâmica conforme sinaliza a Figura 11 abaixo. Em seguida, podemos selecionar a opção de criar essa tabela em uma nova planilha conforme indica a Figura 12:
+## 3.2.1 Quantity x Spare Part Type
+
+Vamos começar entendendo a distribuição das categorias das peças em relação ao total.
+
+Para tanto vamos inserir uma Tabela Dinâmica conforme sinaliza a Figura 11 abaixo. Em seguida, podemos selecionar a opção de criar essa tabela em uma nova planilha conforme indica a Figura 12:
 
 ### Figura 11:
 
@@ -430,6 +434,8 @@ E este será nosso resultado final do gráfico Quantity x Spare Part Type (Figur
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/f3b43ad8-7554-4f66-81c2-6bf0be2240d1)
 
 Para os propósitos dessa análise, vamos chamá-lo de Gráfico 1. 
+
+### 3.2.2 Quantity x Spare Part Type x Location
 
 
 
