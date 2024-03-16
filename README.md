@@ -311,8 +311,26 @@ Em seguida, executamos o comando apresentado na Figura 27 abaixo:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/bca600aa-2df8-4000-a24d-1cbd8462b0ca)
 
+E então, obteremos o seguinte gráfico, resultado de diversas limpezas. 
+
+### Figura 28:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/9648ca46-0d3a-4a5c-aea8-d11a8ccac141)
 
 
+Agora, iremos incluir os rótulos de dados em nosos gráfico dado que optamos pela remoção dessa informação do eixo horizontal. Ver Figura 29: 
+
+Selecionando o gráfico, clicamos no Botão + e, então, Opção Rótulo de Dados - Extremidade Externa
+
+### Figura 29: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/44b54f62-3eef-482f-91f5-004bd051c9ac)
+
+E eis o resultado obtido (Figura 30): 
+
+### Figura 30:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/00659ede-bab2-406d-9b05-417f2b0d7bbc)
 
 
 
