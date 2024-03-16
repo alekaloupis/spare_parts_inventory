@@ -477,9 +477,17 @@ Para invertermos a disposição das categorias, vamos em opções do Eixo Horizo
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/5eae528c-1c1f-46e9-9004-4e970ef68d47)
 
+Dado que temos dois níveis em nosso rótulo de dados, vamos alterar a distância entre eles na opção Eixo Horizontal Categoria - Rótulos - Distância do Eixo (alterado p/350) (figura 49).
 
+### Figura 49:
 
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/020ab484-1719-4832-9d89-653e7900a00c)
 
+Então, somando essa formatação com a aplicação de formatações semelhantes às que fizemos na análise anterior, nosso gráfico final (Gráfico 2) ficará dessa forma (ver Figura 50). 
+
+### Figura 50:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/70d73291-196f-4527-97cc-9bbe1c462122)
 
 
 
