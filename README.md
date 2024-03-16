@@ -388,7 +388,34 @@ incluir  negrito e aumentar a fonte para 10. O resultado será o quê expressa a
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/f8ac54d9-6bde-4560-b9a8-03482c42d4ef)
 
 
+Por fim, partiremos para alterar as cores das barras das três diferentes categorias. Iremos optar por uma combinação de diferentes tons de cinza e realçar a borda em preto. 
 
+Para isso, podemos clicar na primeira barra (Just In Time) e alterar a Cor para uma espécie de cinza bastante claro conforme aponta a Figura 38.
+
+### Figura 38:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/48040eec-1fc8-49af-8a8b-62261fb1d240)
+
+E vamos realçar a borda, indo nesta opção e selecionando a opção de cor preta (ver Figura 39). 
+
+### Figura 39:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/af74c475-9c57-4692-bbe0-79f51addceba)
+
+Nessa primeira etapa de formatação, obtemos a seguinte figura (ver Figura 40). 
+
+### Figura 40:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7cfab7fc-e8b0-42b3-ac7a-f7ba7e739153)
+
+Por fim, aplicaremos as mesmas regras de formatação para a barra da categoria Fast Moving Item. No caso da categoria One-Off, iremos realçá-la com uma cor cinza mais escura e a borda preta. 
+
+O resultado final de nosso gráfico será este (ver Figura 41): 
+
+
+### Figura 41:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/dcc50ea2-41bc-4d99-9209-5032fa240aba)
 
 
 
