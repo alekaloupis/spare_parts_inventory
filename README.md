@@ -361,6 +361,32 @@ E o resultado é este que segue abaixo (Figura 34):
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7a951550-629d-4bba-9c9d-9e38f4662428)
 
 
+Iremos prosseguir com a formatação da caixinha com as categorias do eixo vertical, selecionando a caixinha onde as categorias estão - Opções da Página Inicial - Fonte (Arial) e Sublinhado.
+
+Quanto às caixinhas dos rótulos de dado, iremos incluir uma Fonte Arial, tamanho 7. 
+
+A fim de realçar a caixinha da categoria One-Off, as peças que são o alvo principal de nossa análise, podemos seguir este passo a passo: 
+
+Clicando na caixinha da One-off uma vez, automaticamente o Excel irá selecionar todas as caixinhas de categorias conforme apresenta a imagem abaixo: 
+
+### Figura 35:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/8ad7ef00-8413-497a-af52-bb36415b99cc)
+
+
+Então, para selecionar ESPECIFICAMENTE a caixinha da categoria One-Off podemos dar um DUPLO CLIQUE encima dela e, então, diversas opções serão habilitadas.
+
+Sendo assim, iremos alterar a cor da Fonte na opção Rótulos de Dados para Vermelho (Figura 36). Na Página Inicial, ainda com a caixinha selecionada,
+incluir  negrito e aumentar a fonte para 10. O resultado será o quê expressa a Figura 37.
+
+### Figura 36:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/dc8d4a1d-1630-4655-9973-b1737726de7e)
+
+### Figura 37:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/f8ac54d9-6bde-4560-b9a8-03482c42d4ef)
+
 
 
 
