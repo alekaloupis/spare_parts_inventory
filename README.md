@@ -489,10 +489,23 @@ Então, somando essa formatação com a aplicação de formatações semelhantes
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/70d73291-196f-4527-97cc-9bbe1c462122)
 
+Podemos refinar nosso entendimento da categoria others dentro da coluna LOCATION. Aqui, fizemos uma tabela dinâmica incluindo nos níveis de análise as colunas LOCATION e SPECIFY.
+E todos os casos de Location = "Others" são peças que são adquiridas com fornecedor (categoria Vendor By Purchase Order da coluna SPECIFY). (ver Figura 51). 
+
+### Figura 51:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/a526d392-52da-4cf8-9fa8-b64a6b8d5bcf)
+
+
+Sendo assim, o significado da categoria Others da coluna LOCATION possivelmente é de que a peça está AINDA COM O FORNECEDOR ou com algum subcontratado desse fornecedor e, não, diretamente para rápido manejo da instituição. Podemos trabalhar com essa hipótese, porém, dentro de um contexto de projeto interno à empresa, poderíamos tentar tirar a dúvida sobre o significado dessa categoria mais assertivamente com alguém vinculado a essa área.
+
+## 3.2.3 Quantity x Spare Part Type x Specify
 
 
 
-     
+
+
+
 
 
 
