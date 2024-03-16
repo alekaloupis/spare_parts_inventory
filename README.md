@@ -530,24 +530,67 @@ Logo em seguida, vamos selecionar os valores resultantes, ir na Página Inicial 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/78c79620-95e6-4f39-b4ed-638598fc4c4e)
 
 Aqui, iremos fazer uma visualização um tanto diferente das produzidas anteriormente. Inicialmente vamos copiar os valores gerados pela Tabela Dinâmica, incluindo a Média Geral, em uma
-nova tabela (ver Figura 56). 
+nova tabela. E, depois formatamos todas essas colunas como tabela.
 
-### Figura 56: 
+Selecionar as colunas - Inserir - Formatar como Tabela - Minha tabela tem cabeçalhos. 
 
-![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/ab3535be-74fa-4c9f-86b3-23eec13efd6e)
+O resultado será a figura abaixo:
 
-Então, criamos uma nova coluna, a saber Maior que a Média Geral. E, depois formatamos todas essas colunas como tabela. (figura 57)
+### Figura 56:
 
-Selecionar as colunas - Inserir - Formatar como Tabela - Minha tabela tem cabeçalhos.
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/3da1508b-8ac1-45de-869f-89d81415055e)
+
+
+Agora, iremos incluir ícones (bolinh vermelha/verde) para os valores de média da categoria que ultrapassarem os valores da Média Geral.
+
+Para isso selecionamos a coluna Maximum Price Per Nos Média - Formatação Condicional - Conjunto de ícones - Mais Regras (ver Figura 57). 
 
 ### Figura 57:
 
-![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/46893654-33bd-4bf4-afea-60e24af87f0f)
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/6448d50c-5ae1-4b25-bc77-d9b46032e4b1)
 
 
+E então, o resultado dessa opção será essa tela: 
+
+### Figura 58:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/c9575134-6bd8-4f4f-aff4-ed28209c64fb)
+
+Ao clicarmos em Ok, será feita a seguinte formatação. 
+
+### Figura 59:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/57962eaf-2cc4-47d2-8791-6dd09b3f33f1)
+
+No entanto, desejamos realçar como negativo (cor vermelha) os valores acima da média e não os que estão abaixo. Sendo assim, teremos que modificar uma opção na tela de Gerenciar Regras. 
+
+Ao invés das opções da sequência abaixo (figura 60), vamos aplicar a sequência da figura 61.
+
+### Figura 60:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/84c03b70-bb85-4f37-9e4a-483b7f1399bf)
 
 
+### Figura 61: 
 
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/3710df0e-3c98-4a24-a13c-ad44c8e6f01d)
+
+Alterando a configuração e clicando em Ok, o resultado em nossa tabela será este: 
+
+### Figura 62:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/90e73eaf-f732-4380-bf29-7c1598952de9)
+
+Então, copiamos essa tabela para fora dessa formatação de tabela e obteremos a visualização que utilizaremos para a análise (tabela 1). 
+
+
+### 3.2.4 Spare Part Type x Minimum Price Per Nos
+
+Para essa análise, vamos reproduzir o mesmo passo a passo da análise anterior e obteremos a visualização abaixo (tabela 2). 
+
+### Figura 63:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/47c8d113-af81-4d04-be32-dc644dafe104)
 
 
 
