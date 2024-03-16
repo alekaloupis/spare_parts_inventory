@@ -23,7 +23,7 @@ c) As peças one-off são mais difíceis de serem obtidas do que as peças das d
 
 # 3. Solução
 
-### 3.1 Carga e tratamento dos dados
+## 3.1 Carga e tratamento dos dados
 
 Essa análise exploratória será feita utilizando Excel e Power Query, ferramentas cuja versatilidade e intuitividade favorecem a obtenção de rápidas respostas. 
 
@@ -200,11 +200,11 @@ Ao Fechar a Carregar, abrimos uma aba da Planilha e podemos remomeá-la para dat
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/44833a9b-b432-49c5-8ebc-0880e57e8030)
 
 
-### 3.2 Análise exploratória 
+## 3.2 Análise exploratória 
 
 Essencialmente, faremos essa análise exploratória, utilizando os recursos de Tabela Dinâmica e plotagem de gráficos e visualizações.
 
-## 3.2.1 Quantity x Spare Part Type
+### 3.2.1 Quantity x Spare Part Type
 
 Vamos começar entendendo a distribuição das categorias das peças em relação ao total.
 
@@ -435,7 +435,7 @@ E este será nosso resultado final do gráfico Quantity x Spare Part Type (Figur
 
 Para os propósitos dessa análise, vamos chamá-lo de Gráfico 1. 
 
-### 3.2.2 Quantity x Spare Part Type x Location
+## 3.2.2 Quantity x Spare Part Type x Location
 
 
 
