@@ -281,5 +281,40 @@ Prosseguindo com a nossa limpeza, podemos eliminar esa linha de grade vertical, 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/f0daff05-ed1f-40bd-aff8-0e159d503ee8)
 
+Continuando nessa etapa de limpeza do gráfico gerado, podemos eliminar a linha vertical que delimita as categorias utilizadas no gráfico conforme demonstram as Figura 24 e 25 abaixo.
+
+### Figura 24: 
+
+Botão direito no gráfico - Formatar área do gráfico - Opções do Gráfico - Eixo Vertical (Categoria)
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/94f68f8f-2a82-4ecb-8b65-32a32bbde8f8)
+
+### Figura 25
+
+Opção de Linha - Sem Linha
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7624189e-3e03-4543-b94f-513a070f1f08)
+
+E, então, o resultado é este (Figura 26): 
+
+### Figura 26: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/5ca147ed-b68e-401a-a339-529c9972d8f3)
+
+Além disso, desejamos eliminar os rótulos de valores do eixo x. Para isso, podemos executar os seguintes comandos: 
+
+Botão direito no gráfico - Formatar área do gráfico - Opções do Gráfico - Eixo Horizontal (Valor)
+
+Em seguida, executamos o comando apresentado na Figura 27 abaixo: 
+
+### Figura 27:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/bca600aa-2df8-4000-a24d-1cbd8462b0ca)
+
+
+
+
+
+
 
 
