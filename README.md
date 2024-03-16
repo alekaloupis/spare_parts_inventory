@@ -439,11 +439,11 @@ Para os propósitos dessa análise, vamos chamá-lo de Gráfico 1.
 
 Nesse segundo momento de nossa análise exploratória, iremos investigar a relaçaõ entre o tipo de peça sobressalente e a localização. Retomando o entendimento dessa coluna, cada categoria significa o seguinte:
 
-	company site office: escritório local da empresa (indicativo de facilidade da obtenção da peça)
+	. company site office: escritório local da empresa (indicativo de facilidade da obtenção da peça)
 
-  	centralized: centralizada (peça alocada em local centralizada, possivelmente alguma matriz ou local especializado para armazenamento 
+  	. centralized: centralizada (peça alocada em local centralizada, possivelmente alguma matriz ou local especializado para armazenamento 
 
-    	others: não especificado. 
+    	. others: não especificado. 
      
 A diferença desta análise será que incluiremos duas hierarquias em nossa análise, a saber spare part type e location e daí calcular as quantidades de peças. Então, em nossa Tabela Dinâmica, incluiremos duas categorias nossas linhas, a saber as próprias colunas spare part type e location. O resultado será uma tabela com dois níveis de análise (ver Figura 44):
 
