@@ -529,14 +529,14 @@ Logo em seguida, vamos selecionar os valores resultantes, ir na Página Inicial 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/78c79620-95e6-4f39-b4ed-638598fc4c4e)
 
-Aqui, iremos fazer uma visualização um tanto diferente das produzidas anteriormente. Inicialmene vamos copiar os valores gerados pela Tabela Dinâmica, incluindo a Média Geral, em uma
-nova tabela. No final dessa primeira etapa, teremos essa tabela. (ver Figura 56). 
+Aqui, iremos fazer uma visualização um tanto diferente das produzidas anteriormente. Inicialmente vamos copiar os valores gerados pela Tabela Dinâmica, incluindo a Média Geral, em uma
+nova tabela (ver Figura 56). 
 
 ### Figura 56: 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/ab3535be-74fa-4c9f-86b3-23eec13efd6e)
 
-Então, criamos uma nova coluna nessa nossa tabela, a saber Maior que a Média Geral. E, depois formatamos todas essas colunas como Tabela. (figura 57)
+Então, criamos uma nova coluna, a saber Maior que a Média Geral. E, depois formatamos todas essas colunas como tabela. (figura 57)
 
 Selecionar as colunas - Inserir - Formatar como Tabela - Minha tabela tem cabeçalhos.
 
