@@ -457,7 +457,26 @@ Consequentemente, o gráfico derivado dessa tabela terá a seguinte disposição
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/993905f4-6b7b-4015-b37b-bba103b36522)
 
-Então, prosseguiremos com as formatações e limpezas necessárias que aplicamos no gráfico da análise anterior, a saber limpar campos, retirar linhas verticais, alteração de fonte, inclusão de rótulos de dados
+Então, prosseguiremos com as formatações e limpezas necessárias semelhantes às que aplicamos no gráfico da análise anterior, a saber limpar campos, retirar linhas verticais, alteração de fonte, inclusão de rótulos de dados.
+
+Feita essa primeira etapa de formatações, obtivemos o seguinte gráfico (ver Figura 46). 
+
+### Figura 46:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/bfa47a99-109b-47cc-b75e-a369c50800d3)
+
+Para invertermos a disposição das categorias, vamos em opções do Eixo Horizontal e aplicar a condição presente na imagem abaixo (ver Figura 47). 
+
+### Figura 47:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/bee77e5b-0c73-4104-9a4e-d7f84842d698)
+
+ O resultado será esse (ver Figura 48). 
+
+ ### Figura 48:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/5eae528c-1c1f-46e9-9004-4e970ef68d47)
+
 
 
 
