@@ -501,11 +501,34 @@ Sendo assim, o significado da categoria Others da coluna LOCATION possivelmente 
 
 ## 3.2.3 Quantity x Spare Part Type x Specify
 
-Nessa análise, aplicaremos rigorosamente as mesmas regras de formatação das que foram aplicadas na análise anterior, resultando no seguinte gráfico (Gráfico 3), ver figura 52 que é semelhante ao gráfico 2
+Agora vamos trabalhar com a análise de dois níveis, a saber colunas Spare Part Type e Specify para quantidade de peças.Nessa análise, aplicaremos rigorosamente as mesmas regras de formatação das que foram aplicadas na análise anterior, resultando no seguinte gráfico (Gráfico 3), ver figura 52 que é semelhante ao gráfico 2
 
 ### Figura 52: 
 
-![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/dee7c97b-480c-4f04-ab3b-0f21c880af0f)
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/e483e055-65ea-43c8-9be6-59529954c586)
+
+### 3.2.4 Spare Part Type x Maximum Price Per Nos
+
+Vamos começar com uma tabela dinâmica que envolva essas colunas. Por padrão, a coluna é habilitada para realizar a soma de todos os valores da coluna Maximum Price Per Nos. (ver Figura 53).
+
+### Figura 53:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/8e960ba9-8b33-44e3-b15d-4321969e6e2c)
+
+No entanto, desejamos trabalhar com a Média. Então, iremos alterar essa opção para Média. 
+
+Clicar no campo Maximum Price Per Nos com botão esquerdo - Configurações do Campo de Valor - Média (ver Figura 54).
+
+### Figura 54:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/11d86a74-6c09-4fbc-a2c0-e84abaa71c57)
+
+Logo em seguida, vamos selecionar os valores resultantes, ir na Página Inicial - Número. O resultado será esse (ver Figura 55). 
+
+### Figura 55: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/78c79620-95e6-4f39-b4ed-638598fc4c4e)
+
 
 
 
