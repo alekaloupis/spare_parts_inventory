@@ -354,6 +354,11 @@ Dado as barras do gráfico, clicamos com Botão direito - Classificar - Classifi
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/31945508-c34b-45b4-9442-d7536d2dbf5f)
 
+E o resultado é este que segue abaixo (Figura 34):
+
+### Figura 34: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7a951550-629d-4bba-9c9d-9e38f4662428)
 
 
 
