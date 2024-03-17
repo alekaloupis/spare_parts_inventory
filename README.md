@@ -9,7 +9,7 @@ Além disso, foi mapeado que esses transtornos estavam relacionadas à danifica�
 
 Sendo que a danificação das peças em uso e a não imediata reposição das mesmas seja pela ausência em estoque ou dificuldade de acesso/obtenção, impactaram na retomada do atendimento. 
 
-A gestão hospitalar necessita mapear se a instituição está em uma condição de vulnerabilidade em relação a essas peças one-off. Sendo que alguns indicativos dessa condição seriam: dificuldade de acesso às peças, baixo estoque ou alto custo de aquisição.
+A gestão hospitalar necessita mapear se a instituição está em uma condição de vulnerabilidade em relação a essas peças one-off. Sendo que alguns indicativos dessa condição seriam: dificuldade de acesso às peças, baixo estoque ou alto custo de aquisição. Além disso, deseja identificar as peças one-off com estoque reduzido para tomar alguma ação em relação a elas.
 
 Há um inventário das peças sobressalentes, a saber peças que ficam em estoque e disponíveis para substituição das peças em uso. A fim de constatar uma possível vulnerabilidade da instituição em relação às peças sobressalentes de tipo one-off, será feita uma análise exploratória dos dados desse inventário
 
@@ -20,6 +20,8 @@ a) As peças one-off são mais caras na média que as peças das demais categori
 b) Há uma menor quantidade de peças one-off no inventário do que peças das demais categorias
 
 c) As peças one-off são mais difíceis de serem obtidas do que as peças das demais categorias. 
+
+d) Existe uma maior quantidade de peças sobressalentes one-off em situação de estoque reduzido
 
 # 3. Solução
 
@@ -42,7 +44,7 @@ Ao carregar os dados, iremos ser direcionados para o editor do Power Query
 
 ### Passo 2: Entender cada coluna do dataset disponível
 
-•	Item Code: código da categoria da peça
+•	Item Code: código da categoria da peça. Aqui temos 28 diferentes valores de Item Code que estão relacionadas a 28 descrições de item diferentes, que é justamente a coluna em seguida
 
 •	Item Description: descrição da categoria da peça
 
@@ -608,12 +610,55 @@ Clicar com botão esquerdo no campo Rótulo de Linha e selecionar a categoria On
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/f87852cd-b9bf-499e-a957-f7483caad1fa)
 
 Desse filtro, podemos copiar as informações da tabela dinâmica para outras células limpas e alterar a formatação. Ao final, teremos essa tabela que contém a quantidade total de peças
-da categoria One Off por diferente situação de estoque (chamaremos de tabela 3) - ver figura 65.
+da categoria One Off por diferente situação de estoque (chamaremos de tabela 3). As tabelas correlatas para as peças de tipo Just in Time (tabela 4) e Fast Moving Item (tabela 5) - Ver figura abaixo.
 
 ### Figura 65:
 
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/033bbd05-d544-4fc6-9cdb-b1220f4a0504)
 
-![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7fa1e243-2951-4ff1-ad20-5c45898d4413)
+
+Para os propósitos dessa análise, vamos considerar que Current Stock Level Has Min = Same significa que o estoque da peça possui exatamente a quantidade mínima desejável para a peça (valor da Coluna Min Nos) enquanto que o Current Stock Level Has Min = No signfica que o estoque da peça possui menos do que a quantidade mínima desejável para a peça. Essas duas situações, iremos caracterizar como uma situação de vulnerabilidade da peça.
+
+
+
+### 3.2.6 Criando um dataset com os dados das peças One-Off com situação vulnerável de estoque
+
+Pensando que o objetivo inicial de nossa análise é identificar uma possível situação de vulnerabilidade das peças sobressalentes de tipo one-off, vamos criar um dataset unicamente com essas peças. 
+
+Para isso, podemos abrir uma nova planiha em nossa base de dados, no botão + na extremidade esquerda de nosso arquivo. Para filtrar as colunas com as condições que desejamos, podemos utilizar a função FILTRO do Excel. 
+
+Desejamos filtrar do dataset original, unicamente as colunas spare part type = One Off e current stock level has min = No/Same (ver Figura 66:)
+
+### Figura 66:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/744115b9-1dd4-4502-ba19-97ab2561004b)
+
+Na fórmula FILTRO do Excel, o "*" significa "E" enquanto que o "+" significa "OU". Aplicando a fórmula, obtivemos todas as linhas do dataset original que respeitam as condições estipuladas (ver Figura 67).
+
+### Figura 67:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/72968d20-8a9a-48d6-8569-70442e9f02e9)
+
+Para completar nossa tabela, vamos copiar o cabeçalho do dataset original neste novo dataset filtrado. 
+
+Tendo o novo dataset já com o cabeçalho vamos copiar e colar todas as linhas para uma nova aba da planilha, utilizando a função de Colar somente Valores.
+
+Dessa forma, o nosso dataset novo perderá a referência com o dataset de origem. Essa nossa nova aba da planilha receberá o nome de only_one_off
+
+Então, iremos começar formatando o only_one_off como Tabela e alterando os tipos de dados das colunas para que sejam compatíveis com o dataset original. 
+
+Superada essa etapa, verificamos que as colunas Brand e Model do only-one-off incluíram o número "0" nas linhas vazias, destoando do original. Então, iremos ajustar essa informação. 
+
+Podemos efetuar essa tarefa manualmente uma vez que não poderemos utilizar o editor do Power Query para substituir esses valores. Basta filtrarmos no only_one_off as colunas Brand e Model e apagar os valores 
+"0" e, assim, essas linhas ficarão vazias. 
+
+A gestão deseja a listagem das peças one-off em situação de estoque reduzido. Para atender essa demanda, podemos reportar o dataset only_one_off criado. Ou dialogar diretamente com a pessoa solicitante para entender como ela gostaria de receber essa informação. 
+
+
+# 4. Dialogando com as hipóteses e a pergunta norteadora mais insights. 
+
+
+
 
 
 
