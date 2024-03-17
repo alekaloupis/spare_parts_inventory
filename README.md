@@ -592,6 +592,34 @@ Para essa análise, vamos reproduzir o mesmo passo a passo da análise anterior 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/47c8d113-af81-4d04-be32-dc644dafe104)
 
+### 3.2.5 Spare Part Type x Current Stock Level Has Min
+
+Vamos agora confeccionar uma tabela dinâmica e gráfico envolvendo as colunas spare part type e current stock level has min e as quantidades, procedendo de forma semelhante ao passo a passo que utilizamos
+na confecção das outras análises. 
+
+No entanto, diferentemente das análises anteriores, vamos produzir tabelas para os diferentes de tipos de peças de forma individual. 
+
+Para isso, dado a tabela dinâmica, podemos filtrar, por exemplo, a coluna One-Off, o quê retornará apenas as informações dessa coluna (ver figura 64). 
+
+Clicar com botão esquerdo no campo Rótulo de Linha e selecionar a categoria One-Off por exemplo.
+
+### Figura 64: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/f87852cd-b9bf-499e-a957-f7483caad1fa)
+
+Desse filtro, podemos copiar as informações da tabela dinâmica para outras células limpas e alterar a formatação. Ao final, teremos essa tabela que contém a quantidade total de peças
+da categoria One Off por diferente situação de estoque (chamaremos de tabela 3) - ver figura 65.
+
+### Figura 65:
+
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7fa1e243-2951-4ff1-ad20-5c45898d4413)
+
+
+
+
+
+
 
 
 
