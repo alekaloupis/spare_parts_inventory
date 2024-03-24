@@ -2,6 +2,10 @@
 
 dataset: https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-parts-inventories-datasets?resource=download
 
+arquivo com o dataset: KL HKL - Spare Part Inventories
+
+dataset após análises: dataset
+
 # 1. Questão de negócio 
 
 Nos últimos meses, houveram algumas interrupções na assistência aos pacientes devido à danificação de peças de equipamentos médicos da instituição.
