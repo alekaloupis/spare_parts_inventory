@@ -1,16 +1,8 @@
 # Spare Parts Inventory
 
-#### dataset
+dataset: https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-parts-inventories-datasets?resource=download
 
-https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-parts-inventories-datasets?resource=download
 
-#### arquivo com o dataset: 
-
-KL HKL - Spare Part Inventories.xlsx
-
-#### dataset após análises:
-
-dataset
 
 # 1. Questão de negócio 
 
