@@ -673,7 +673,9 @@ Sendo que no momento da reunião, o analista se encarregará de apresentar os re
 Recebida a análise pela equipe diretiva e feita a reunião, o analista receberá possíveis fedbacks e novas demandas referentes ao problema das peças. 
 
 
+# 5. Tecnologias envolvidas no projeto 
 
+Excel, Power Query, Power Point
 
 
 
