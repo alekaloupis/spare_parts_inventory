@@ -670,7 +670,6 @@ Sendo que no momento da reunião, o analista se encarregará de apresentar os re
 
 Recebida a análise pela equipe diretiva e feita a reunião, o analista receberá possíveis fedbacks e novas demandas referentes ao problema das peças. 
 
-Então, poderá ajustar sua análise ou iniciar novas análises.
 
 
 
