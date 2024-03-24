@@ -654,7 +654,7 @@ Após ligação com a secretaria da gestão, foi definido que a listagem das pe�
 # 3. Discutindo a problemática da análise
 
 A gestão hospitalar gostaria de visualizar o resultado das análises em uma apresentação de Power Point a ser enviada pelo email pelo Analista de Dados previamente antes da reunião. (arquivo de nome
-"presentation").
+"presentation"). Foi sinalizado que essa apresentação deve ser o mais objetiva possível, servindo apenas para dar o start das discussões que se desenvolverão a partir dos achados da análise.
 
 Vamos salvar todas os gráficos e tabelas dessa análise pois depois as incluíremos na apresentação. Para isso, podemos dar botão direito no gráfico/tabela - Salvar como imagem - nomear o arquivo e selecionar a pasta para o salvamento. (ver Figura 68).
 
