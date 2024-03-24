@@ -651,7 +651,7 @@ Após ligação com a secretaria da gestão, foi definido que a listagem das pe�
 
 
 
-# 3. Dialogando com as hipóteses e a pergunta norteadora mais insights. 
+# 3. Discutindo a problemática da análise
 
 A gestão hospitalar gostaria de visualizar o resultado das análises em uma apresentação de Power Point a ser enviada pelo email pelo Analista de Dados previamente antes da reunião. (arquivo de nome
 "presentation").
