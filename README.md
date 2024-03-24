@@ -4,14 +4,18 @@ dataset: https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-part
 
 # 1. Questão de negócio 
 
-Nos últimos meses, houveram duas interrupções na assistência aos pacientes devido à danificação de peças de equipamentos médicos da instituição.
+Nos últimos meses, houveram algumas interrupções na assistência aos pacientes devido à danificação de peças de equipamentos médicos da instituição.
 Além disso, foi mapeado que esses transtornos estavam relacionadas à danificação de peças one-off, consideradas raras e com processo de fabricação mais específico. 
 
 Sendo que a danificação das peças em uso e a não imediata reposição das mesmas seja pela ausência em estoque ou dificuldade de acesso/obtenção, impactaram na retomada do atendimento. 
 
-A gestão hospitalar necessita mapear se a instituição está em uma condição de vulnerabilidade em relação a essas peças one-off. Sendo que alguns indicativos dessa condição seriam: dificuldade de acesso às peças, baixo estoque ou alto custo de aquisição. Além disso, deseja identificar as peças one-off com estoque reduzido para tomar alguma ação em relação a elas.
+A gestão necessita mapear se a instituição se encontra em situação de vulnerabilidade em relação às peças one-off. Para responder a essa problemática será feita uma análise exploratória com os dados do inventário de peças sobressalentes existente, a saber peças dispoíveis para substituição das peças em uso.
 
-Há um inventário das peças sobressalentes, a saber peças que ficam em estoque e disponíveis para substituição das peças em uso. A fim de constatar uma possível vulnerabilidade da instituição em relação às peças sobressalentes de tipo one-off, será feita uma análise exploratória dos dados desse inventário
+A liderança institucional sinalizou que alguns indicativos de vulnerabilidade seriam: dificuldade de acesso às peças, baixo estoque ou alto custo de aquisição. Além disso, deseja identificar as peças one-off com estoque reduzido para tomar alguma ação em relação a elas.
+
+Além disso, foi demandado a listagem das peças alvo em situação de vulnerabilidade para a tomada de possíveis ações.
+
+Por fim, todas essas demandas devem ser entregues até o horário do almoço, sendo que o início da confecção da análise teve início no final do expediente do dia anterior. No período da tarde, o analista de dados, as áreas de logística, custos e as lideranças farão uma reunião para discutir possíveis ações em relação às peças one-off.
 
 # 2. Hipóteses 
 
@@ -614,7 +618,7 @@ da categoria One Off por diferente situação de estoque (chamaremos de tabela 3
 
 ### Figura 65:
 
-![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/033bbd05-d544-4fc6-9cdb-b1220f4a0504)
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/9d9632b0-1819-41cd-8ca1-2948739d022f)
 
 
 Para os propósitos dessa análise, vamos considerar que Current Stock Level Has Min = Same significa que o estoque da peça possui exatamente a quantidade mínima desejável para a peça (valor da Coluna Min Nos) enquanto que o Current Stock Level Has Min = No signfica que o estoque da peça possui menos do que a quantidade mínima desejável para a peça. Essas duas situações, iremos caracterizar como uma situação de vulnerabilidade da peça.
@@ -652,13 +656,30 @@ Superada essa etapa, verificamos que as colunas Brand e Model do only-one-off in
 Podemos efetuar essa tarefa manualmente uma vez que não poderemos utilizar o editor do Power Query para substituir esses valores. Basta filtrarmos no only_one_off as colunas Brand e Model e apagar os valores 
 "0" e, assim, essas linhas ficarão vazias. 
 
-A gestão deseja a listagem das peças one-off em situação de estoque reduzido. Para atender essa demanda, podemos reportar o dataset only_one_off criado. Ou dialogar diretamente com a pessoa solicitante para entender como ela gostaria de receber essa informação. 
+Após ligação com a secretaria da gestão, foi definido que a listagem das peças one-off deveria ser enviada por email em formato csv. Então, iremos copiar a tabela que contém apenas as peças one-off para outro arquivo csv, salvar e  encaminhar por email. (arquivo "only_one_off" compartilhado aqui neste repositório).
+
 
 
 # 4. Dialogando com as hipóteses e a pergunta norteadora mais insights. 
 
+A gestão hospitalar gostaria de visualizar o resultado das análises em uma apresentação de Power Point a ser enviada pelo email pelo Analista de Dados previamente antes da reunião. (arquivo de nome
+"presentation").
+
+Vamos salvar todas os gráficos e tabelas dessa análise pois depois as incluíremos na apresentação. Para isso, podemos dar botão direito no gráfico/tabela - Salvar como imagem - nomear o arquivo e selecionar a pasta para o salvamento. (ver Figura 68).
+
+### Figura 68:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/96af1f9a-c9c1-4c7b-a305-42981624debf)
 
 
+Sendo que no momento da reunião, o analista se encarregará de apresentar os resultados.
+
+
+# 5. Próximos passos
+
+Recebida a análise pela equipe diretiva e feita a reunião, o analista receberá possíveis fedbacks e novas demandas referentes ao problema das peças. 
+
+Então, poderá ajustar sua análise ou iniciar novas análises.
 
 
 
