@@ -589,7 +589,7 @@ Para essa análise, vamos reproduzir o mesmo passo a passo da análise anterior 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/47c8d113-af81-4d04-be32-dc644dafe104)
 
-### 3.2.5 Spare Part Type x Current Stock Level Has Min
+### 2.2.6 Spare Part Type x Current Stock Level Has Min
 
 Vamos agora confeccionar uma tabela dinâmica e gráfico envolvendo as colunas spare part type e current stock level has min e as quantidades, procedendo de forma semelhante ao passo a passo que utilizamos
 na confecção das outras análises. 
