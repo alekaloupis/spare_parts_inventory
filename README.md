@@ -17,19 +17,10 @@ Além disso, foi demandado a listagem das peças alvo em situação de vulnerabi
 
 Por fim, todas essas demandas devem ser entregues até o horário do almoço, sendo que o início da confecção da análise teve início no final do expediente do dia anterior. No período da tarde, o analista de dados, as áreas de logística, custos e as lideranças farão uma reunião para discutir possíveis ações em relação às peças one-off.
 
-# 2. Hipóteses 
 
-a) As peças one-off são mais caras na média que as peças das demais categorias
+# 2. Solução
 
-b) Há uma menor quantidade de peças one-off no inventário do que peças das demais categorias
-
-c) As peças one-off são mais difíceis de serem obtidas do que as peças das demais categorias. 
-
-d) Existe uma maior quantidade de peças sobressalentes one-off em situação de estoque reduzido
-
-# 3. Solução
-
-## 3.1 Carga e tratamento dos dados
+## 2.1 Carga e tratamento dos dados
 
 Essa análise exploratória será feita utilizando Excel e Power Query, ferramentas cuja versatilidade e intuitividade favorecem a obtenção de rápidas respostas. 
 
@@ -206,11 +197,11 @@ Ao Fechar a Carregar, abrimos uma aba da Planilha e podemos remomeá-la para dat
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/44833a9b-b432-49c5-8ebc-0880e57e8030)
 
 
-## 3.2 Análise exploratória 
+## 2.2 Análise exploratória 
 
 Essencialmente, faremos essa análise exploratória, utilizando os recursos de Tabela Dinâmica e plotagem de gráficos e visualizações.
 
-### 3.2.1 Quantity x Spare Part Type
+### 2.2.1 Quantity x Spare Part Type
 
 Vamos começar entendendo a distribuição das categorias das peças em relação ao total.
 
@@ -441,7 +432,7 @@ E este será nosso resultado final do gráfico Quantity x Spare Part Type (Figur
 
 Para os propósitos dessa análise, vamos chamá-lo de Gráfico 1. 
 
-## 3.2.2 Quantity x Spare Part Type x Location
+## 2.2.2 Quantity x Spare Part Type x Location
 
 Nesse segundo momento de nossa análise exploratória, iremos investigar a relaçaõ entre o tipo de peça sobressalente e a localização. Retomando o entendimento dessa coluna, cada categoria significa o seguinte:
 
@@ -505,7 +496,7 @@ E todos os casos de Location = "Others" são peças que são adquiridas com forn
 
 Sendo assim, o significado da categoria Others da coluna LOCATION possivelmente é de que a peça está AINDA COM O FORNECEDOR ou com algum subcontratado desse fornecedor e, não, diretamente para rápido manejo da instituição. Podemos trabalhar com essa hipótese, porém, dentro de um contexto de projeto interno à empresa, poderíamos tentar tirar a dúvida sobre o significado dessa categoria mais assertivamente com alguém vinculado a essa área.
 
-## 3.2.3 Quantity x Spare Part Type x Specify
+## 2.2.3 Quantity x Spare Part Type x Specify
 
 Agora vamos trabalhar com a análise de dois níveis, a saber colunas Spare Part Type e Specify para quantidade de peças.Nessa análise, aplicaremos rigorosamente as mesmas regras de formatação das que foram aplicadas na análise anterior, resultando no seguinte gráfico (Gráfico 3), ver figura 52 que é semelhante ao gráfico 2
 
@@ -513,7 +504,7 @@ Agora vamos trabalhar com a análise de dois níveis, a saber colunas Spare Part
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/e483e055-65ea-43c8-9be6-59529954c586)
 
-### 3.2.4 Spare Part Type x Maximum Price Per Nos
+### 2.2.4 Spare Part Type x Maximum Price Per Nos
 
 Vamos começar com uma tabela dinâmica que envolva essas colunas. Por padrão, a coluna é habilitada para realizar a soma de todos os valores da coluna Maximum Price Per Nos. (ver Figura 53).
 
@@ -590,7 +581,7 @@ Alterando a configuração e clicando em Ok, o resultado em nossa tabela será e
 Então, copiamos essa tabela para fora dessa formatação de tabela e obteremos a visualização que utilizaremos para a análise (tabela 1). 
 
 
-### 3.2.4 Spare Part Type x Minimum Price Per Nos
+### 2.2.5 Spare Part Type x Minimum Price Per Nos
 
 Para essa análise, vamos reproduzir o mesmo passo a passo da análise anterior e obteremos a visualização abaixo (tabela 2). 
 
@@ -618,14 +609,14 @@ da categoria One Off por diferente situação de estoque (chamaremos de tabela 3
 
 ### Figura 65:
 
-![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/9d9632b0-1819-41cd-8ca1-2948739d022f)
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/49f673a3-3400-4ce4-979c-fb0f19db3861)
 
 
 Para os propósitos dessa análise, vamos considerar que Current Stock Level Has Min = Same significa que o estoque da peça possui exatamente a quantidade mínima desejável para a peça (valor da Coluna Min Nos) enquanto que o Current Stock Level Has Min = No signfica que o estoque da peça possui menos do que a quantidade mínima desejável para a peça. Essas duas situações, iremos caracterizar como uma situação de vulnerabilidade da peça.
 
 
 
-### 3.2.6 Criando um dataset com os dados das peças One-Off com situação vulnerável de estoque
+### 2.2.6 Criando um dataset com os dados das peças One-Off com situação vulnerável de estoque
 
 Pensando que o objetivo inicial de nossa análise é identificar uma possível situação de vulnerabilidade das peças sobressalentes de tipo one-off, vamos criar um dataset unicamente com essas peças. 
 
@@ -660,7 +651,7 @@ Após ligação com a secretaria da gestão, foi definido que a listagem das pe�
 
 
 
-# 4. Dialogando com as hipóteses e a pergunta norteadora mais insights. 
+# 3. Dialogando com as hipóteses e a pergunta norteadora mais insights. 
 
 A gestão hospitalar gostaria de visualizar o resultado das análises em uma apresentação de Power Point a ser enviada pelo email pelo Analista de Dados previamente antes da reunião. (arquivo de nome
 "presentation").
@@ -675,7 +666,7 @@ Vamos salvar todas os gráficos e tabelas dessa análise pois depois as incluír
 Sendo que no momento da reunião, o analista se encarregará de apresentar os resultados.
 
 
-# 5. Próximos passos
+# 4. Próximos passos
 
 Recebida a análise pela equipe diretiva e feita a reunião, o analista receberá possíveis fedbacks e novas demandas referentes ao problema das peças. 
 
