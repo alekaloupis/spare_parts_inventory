@@ -19,7 +19,7 @@ Além disso, foi demandado a listagem das peças alvo com estoque reduzido. Por 
 
 ## 2.1 Carga e tratamento dos dados
 
-ssa análise exploratória será feita utilizando Excel e Power Query, ferramentas cuja versatilidade e intuitividade favorecem a obtenção de rápidas respostas. 
+Essa análise exploratória será feita utilizando Excel e Power Query, ferramentas cuja versatilidade e intuitividade favorecem a obtenção de rápidas respostas. 
 
 ### Passo 1: Abrir um Excel vazio e carregar os dados a partir das sinalizações das imagens abaixo (Figuras 1 e 2):
 
