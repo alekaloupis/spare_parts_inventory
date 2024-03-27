@@ -712,7 +712,7 @@ Recebida a análise pela equipe diretiva e feita a reunião, o analista receber�
 
 # 5. Tecnologias envolvidas no projeto 
 
-<img src="/image/excel.png">
+<img src="/image/excel.png", height = 10>
 
 Excel
 
