@@ -662,9 +662,9 @@ Agora passamos para a apresentação dos achados/insights da análise.
 
 ### Insight 1: Contigente significativo das peças one-off no percentual de todas as peças sobressalentes
 
-A partir do Gráfico 1, podemos verificar que as peças one-off representam quase 1/3 de todas as peças sobressalentes da instituição.
+A partir do Gráfico 1, podemos verificar que as peças one-off representam quase 1/3 de todas as peças sobressalentes da instituição. No entanto, uma crença pré-análise poderia ser a de que, pela natureza das peças one-off, elas representariam um contingente menor do total de peças. No entanto, a análise atestou o contrário. 
 
-Sendo peças raras e de mais difícil substituição, ter um contingente tão significativo desse tipo de peça pode ser considerado um fator de vulnerabilidade da instituição. 
+Ora e sendo peças raras e de mais difícil substituição, ter um contingente tão significativo desse tipo de peça no total geral pode ser considerado um fator de vulnerabilidade.
 
 ### Figura 68 - Gráfico 1:
 
@@ -684,13 +684,23 @@ Além disso, esse fator de possível dificuldade de acesso/obtenção se acentua
 
 ### Insight 3: Na média, as peças one-off são mais caras que as peças das demais categorias
 
-As tabelas 1 e 2 nos demonstram que, na média, o preço mínimo e máximo das peças one-off é superior aos das demais categorias. 
+As tabelas 1 e 2 nos demonstram que, na média, o preço mínimo e máximo das peças one-off é superior aos das demais categorias, o quê concretamente atesta um custo de aquisição superior.
 
 ### Figura 70: 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7ee1c4c3-20e4-44d3-b165-37eaf0ea9ff6)
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/509d6db3-00fd-4e91-a05d-16e4bcd0c86b)
+
+### Insight 4: Parcela representativa do total de peças one-off está com estoque reduzido. 
+
+Na tabela 3 representada abaixo pela Figura 71, ao somar as categorias Same e No do Percentual, teremos 56% do total. Ou seja, temos mais da metade das peças one-off cuja quantidade de peças em estoque é igual ou menor ao mínimo desejável. 
+
+Ou seja, temos 56% do total de peças one-off com estoque reduzido. Tratando-se de peças raras, isto pode ser um fator que trará dificuldades caso sejam necessárias trocas ou remanejamentos de peças.
+
+### Figura 71 - Tabela 3:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/e728c23d-d3a8-4463-9b8a-bef55a58f233)
 
 
 
