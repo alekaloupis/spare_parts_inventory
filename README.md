@@ -662,7 +662,7 @@ Agora passamos para a apresentação dos achados/insights da análise.
 
 ### Insight 1: Contigente significativo das peças one-off no percentual de todas as peças sobressalentes
 
-A partir do Gráfico 1, podemos verificar que as peças one-off representam quase 1/3 de todas as peças sobressalentes da instituição. No entanto, uma crença pré-análise poderia ser a de que, pela natureza das peças one-off, elas representariam um contingente menor do total de peças. No entanto, a análise atestou o contrário. 
+Uma crença pré-análise poderia considerar que as peças one-off representariam um contingente menor do total de peças. No entanto, a análise atestou o contrário. A partir do Gráfico 1, podemos verificar que as peças one-off representam quase 1/3 de todas as peças sobressalentes da instituição.
 
 Ora e sendo peças raras e de mais difícil substituição, ter um contingente tão significativo desse tipo de peça no total geral pode ser considerado um fator de vulnerabilidade.
 
@@ -694,7 +694,7 @@ As tabelas 1 e 2 nos demonstram que, na média, o preço mínimo e máximo das p
 
 ### Insight 4: Parcela representativa do total de peças one-off está com estoque reduzido. 
 
-Na tabela 3 representada abaixo pela Figura 71, ao somar as categorias Same e No do Percentual, teremos 56% do total. Ou seja, temos mais da metade das peças one-off cuja quantidade de peças em estoque é igual ou menor ao mínimo desejável. 
+Na tabela 3 representada abaixo pela Figura 71, ao somar as categorias Same e No do Percentual, teremos 56% do total.
 
 Ou seja, temos 56% do total de peças one-off com estoque reduzido. Tratando-se de peças raras, isto pode ser um fator que trará dificuldades caso sejam necessárias trocas ou remanejamentos de peças.
 
