@@ -712,6 +712,8 @@ Recebida a análise pela equipe diretiva e feita a reunião, o analista receber�
 
 # 5. Tecnologias envolvidas no projeto 
 
+<img src="/image/excel">
+
 Excel
 
 Power Query
