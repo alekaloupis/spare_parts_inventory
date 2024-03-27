@@ -6,18 +6,12 @@ dataset: https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-part
 
 # 1. Questão de negócio 
 
-Nos últimos meses, houveram algumas interrupções na assistência aos pacientes devido à danificação de peças de equipamentos médicos da instituição.
-Além disso, foi mapeado que esses transtornos estavam relacionadas à danificação de peças one-off, consideradas raras e com processo de fabricação mais específico. 
+Dentro de uma institução hospitalar, nos últimos meses, houveram algumas interrupções na assistência aos pacientes devido à danificação de peças de equipamentos médicos.
+Além disso, foi mapeado que esses transtornos estavam relacionadas à danificação de peças one-off, consideradas raras e com processo de fabricação específico. 
 
-Sendo que a danificação das peças em uso e a não imediata reposição das mesmas seja pela ausência em estoque ou dificuldade de acesso/obtenção, impactaram na retomada do atendimento. 
+Sendo que a danificação das peças em uso e a não imediata reposição das mesmas impactaram na retomada do atendimento. A gestão considera de valor estratégico manter formas saudáveis de obtenção, garantir estoque para evitar novos transtornos e interrupções na rotina. E para isso, deseja discutir ações específicas em relação a essas peças e conta com o auxílio do analista de dados da empresa, profissional capaz de levantar dados e realizar análises. Atualmente, existe um inventário das peças sobressaletes, a saber peças disponíveis para reposição das peças em uso. E a partir desse inventário, a gestao hospitalar solicitou uma análise para averigurar a existência de indícios que constatem ou não uma situação de vulnerabilidade do hospital em relação a essas peças one-off. Dentre esses indícios, poderíamos citar: ausência de quantidade mínima, dificuldades de acesso, formas de aquisição, custos de aquisição.
 
-A gestão necessita mapear se a instituição se encontra em situação de vulnerabilidade em relação às peças one-off. Para responder a essa problemática será feita uma análise exploratória com os dados do inventário de peças sobressalentes existente, a saber peças dispoíveis para substituição das peças em uso.
-
-A liderança institucional sinalizou que alguns indicativos de vulnerabilidade seriam: dificuldade de acesso às peças, baixo estoque ou alto custo de aquisição. Além disso, deseja identificar as peças one-off com estoque reduzido para tomar alguma ação em relação a elas.
-
-Além disso, foi demandado a listagem das peças alvo em situação de vulnerabilidade para a tomada de possíveis ações.
-
-Por fim, todas essas demandas devem ser entregues até o horário do almoço, sendo que o início da confecção da análise teve início no final do expediente do dia anterior. No período da tarde, o analista de dados, as áreas de logística, custos e as lideranças farão uma reunião para discutir possíveis ações em relação às peças one-off.
+Além disso, foi demandado a listagem das peças alvo em situação de vulnerabilidade. Por fim, foi solicitado que da análise, o analista apresente seus principais achados em uma reunião e elabore uma apresentação em Power Point.
 
 
 # 2. Solução
