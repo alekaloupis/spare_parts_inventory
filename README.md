@@ -714,11 +714,8 @@ Recebida a análise pela equipe diretiva e feita a reunião, o analista receber�
 
 <img src="/image/excel.png" width="80px">
 
-Excel
+<img src="/image/power-point.png" width="80px">
 
-Power Query
-
-Power Point
 
 
 
