@@ -331,7 +331,7 @@ E eis o resultado obtido (Figura 30):
 
 Além disso, desejamos retirar a legenda do lado direito (Total). Para isso, podemos selecionar o retângulo no qual essa legenda está e deletar. 
 
-O resultado será esse (Figura 31). O que fica notório é que as barras começam a ocupar uma área maior da figura no momento que excluímos a legenda.
+O resultado será esse (Figura 31).
 
 ### Figura 31: 
 
