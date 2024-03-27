@@ -534,7 +534,7 @@ O resultado será a figura abaixo:
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/3da1508b-8ac1-45de-869f-89d81415055e)
 
 
-Agora, iremos incluir ícones (bolinh vermelha/verde) para os valores de média da categoria que ultrapassarem os valores da Média Geral.
+Agora, iremos incluir ícones (bolinha vermelha/verde) para os valores de média da categoria que ultrapassarem os valores da Média Geral.
 
 Para isso selecionamos a coluna Maximum Price Per Nos Média - Formatação Condicional - Conjunto de ícones - Mais Regras (ver Figura 56). 
 
