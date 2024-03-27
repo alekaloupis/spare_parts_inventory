@@ -712,7 +712,11 @@ Recebida a análise pela equipe diretiva e feita a reunião, o analista receber�
 
 # 5. Tecnologias envolvidas no projeto 
 
-Excel, Power Query, Power Point
+Excel
+
+Power Query
+
+Power Point
 
 
 
