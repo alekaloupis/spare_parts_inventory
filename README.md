@@ -360,7 +360,7 @@ E o resultado é este que segue abaixo (Figura 34):
 
 Iremos prosseguir com a formatação da caixinha com as categorias do eixo vertical, selecionando a caixinha onde as categorias estão - Opções da Página Inicial - Fonte (Arial) e Sublinhado.
 
-Quanto às caixinhas dos rótulos de dado, iremos incluir uma Fonte Arial, tamanho 7. 
+Quanto às caixinhas dos rótulos de dados, iremos incluir uma Fonte Arial, tamanho 7. 
 
 A fim de realçar a caixinha da categoria One-Off, as peças que são o alvo principal de nossa análise, podemos seguir este passo a passo: 
 
