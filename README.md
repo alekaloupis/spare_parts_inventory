@@ -676,11 +676,22 @@ A correlação entre o valor Others da Coluna Location e o valor Vendor by Purhc
 
 Além disso, esse fator de possível dificuldade de acesso/obtenção se acentua quando observamos a distribuição dos valores de Location para as peças one-off uma vez que o percentual de Others - 18,4% é superior aos das demais categorias (Company Site Office e Centralized), que são casos nos quais as peças estão mais acessíveis.
 
-### Figura 69 - Gráficos 2, 3
+### Figura 69 - Gráficos 2, 3:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/6cd20993-a3b5-4dac-8ac0-3ebe0876b6b0)
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/fdfe0a91-62eb-4293-9ef7-4518f105ca4c)
+
+### Insight 3: Na média, as peças one-off são mais caras que as peças das demais categorias
+
+As tabelas 1 e 2 nos demonstram que, na média, o preço mínimo e máximo das peças one-off é superior aos das demais categorias. 
+
+### Figura 70: 
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7ee1c4c3-20e4-44d3-b165-37eaf0ea9ff6)
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/509d6db3-00fd-4e91-a05d-16e4bcd0c86b)
+
 
 
 
