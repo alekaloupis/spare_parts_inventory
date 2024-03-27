@@ -645,16 +645,43 @@ Após ligação com a secretaria da gestão, foi definido que a listagem das pe�
 
 
 
-# 3. Discutindo a problemática da análise
+# 3. Insights
 
 A gestão hospitalar gostaria de visualizar o resultado das análises em uma apresentação de Power Point a ser enviada pelo email pelo Analista de Dados previamente antes da reunião. (arquivo de nome
 "presentation"). Foi sinalizado que essa apresentação deve ser o mais objetiva possível, servindo apenas para dar o start das discussões que se desenvolverão a partir dos achados da análise.
 
 Vamos salvar todas os gráficos e tabelas dessa análise pois depois as incluíremos na apresentação. Para isso, podemos dar botão direito no gráfico/tabela - Salvar como imagem - nomear o arquivo e selecionar a pasta para o salvamento. (ver Figura 67).
 
+Agora passamos para a apresentação dos achados/insights da análise. 
+
+
 ### Figura 67:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/96af1f9a-c9c1-4c7b-a305-42981624debf)
+
+
+### Insight 1: Contigente significativo das peças one-off no percentual de todas as peças sobressalentes
+
+A partir do Gráfico 1, podemos verificar que as peças one-off representam quase 1/3 de todas as peças sobressalentes da instituição.
+
+Sendo peças raras e de mais difícil substituição, ter um contingente tão significativo desse tipo de peça pode ser considerado um fator de vulnerabilidade da instituição. 
+
+### Figura 68 - Gráfico 1:
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/b04c76f1-76d5-454c-8b6d-493a27b39b3d)
+
+### Insight 2: As peças one-off são de mais difícil acesso/obtenção do que as peças das demais categorias
+
+A correlação entre o valor Others da Coluna Location e o valor Vendor by Purhcase Order da coluna Specify indica que as peças da categoria Others estão provavelmente localizadas junto ao fornecedor ou um subcontratado do fornecedor, o quê pode ser um fator de dificuldade acesso/obtenção.
+
+Além disso, esse fator de possível dificuldade de acesso/obtenção se acentua quando observamos a distribuição dos valores de Location para as peças one-off uma vez que o percentual de Others - 18,4% é superior aos das demais categorias (Company Site Office e Centralized), que são casos nos quais as peças estão mais acessíveis.
+
+### Figura 69 - Gráficos 2, 3
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/6cd20993-a3b5-4dac-8ac0-3ebe0876b6b0)
+
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/fdfe0a91-62eb-4293-9ef7-4518f105ca4c)
+
 
 
 # 4. Próximos passos
