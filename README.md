@@ -716,7 +716,6 @@ Recebida a análise pela equipe diretiva e feita a reunião, o analista receber�
 
 <img src="/image/power-point.png" width="80px">
 
-Power Query
 
 
 
