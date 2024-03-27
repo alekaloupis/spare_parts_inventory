@@ -161,8 +161,7 @@ Então, na coluna Specify, vamos alterar o valor de null para not specified. Al�
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/7266a221-53b7-4e33-a87c-e41a32a7600f)
 
 
-Uma das nossas hipóteses levantadas sugere que investiguemos a capacidade de estoque das peças sobressalentes. Ora, se o valor da coluna
-"Current Stock Level" for menor que o mínimo valor em estoque, dado pela coluna "Min Nos", então podemos concluir que não temos o mínimo de peças em estoque. 
+Nesta análise, é fundamental averiguar a situação de estoque das peças. Ora, se o valor da coluna "Current Stock Level" for menor que o mínimo valor em estoque, dado pela coluna "Min Nos", então podemos concluir que não temos o mínimo de peças. 
 
 Sendo assim, vamos criar essa coluna calculada em nosso dataset "Current Stock Level Has Min?" - valores: Same/Yes/No. 
 
