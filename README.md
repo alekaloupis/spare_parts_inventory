@@ -502,23 +502,23 @@ O quê nos leva a concluir que todas as peças Location = Others são peças que
 
 ### 2.2.4 Spare Part Type x Maximum Price Per Nos
 
-Vamos começar com uma tabela dinâmica que envolva essas colunas. Por padrão, a coluna é habilitada para realizar a soma de todos os valores da coluna Maximum Price Per Nos. (ver Figura 53).
+Vamos começar com uma tabela dinâmica que envolva essas colunas. Por padrão, a coluna é habilitada para realizar a soma de todos os valores da coluna Maximum Price Per Nos. (ver Figura 52).
 
-### Figura 53:
+### Figura 52:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/8e960ba9-8b33-44e3-b15d-4321969e6e2c)
 
 No entanto, desejamos trabalhar com a Média. Então, iremos alterar essa opção para Média. 
 
-Clicar no campo Maximum Price Per Nos com botão esquerdo - Configurações do Campo de Valor - Média (ver Figura 54).
+Clicar no campo Maximum Price Per Nos com botão esquerdo - Configurações do Campo de Valor - Média (ver Figura 53).
 
-### Figura 54:
+### Figura 53:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/11d86a74-6c09-4fbc-a2c0-e84abaa71c57)
 
-Logo em seguida, vamos selecionar os valores resultantes, ir na Página Inicial - Número. O resultado será esse (ver Figura 55). 
+Logo em seguida, vamos selecionar os valores resultantes, ir na Página Inicial - Número. O resultado será esse (ver Figura 54). 
 
-### Figura 55: 
+### Figura 54: 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/78c79620-95e6-4f39-b4ed-638598fc4c4e)
 
@@ -529,48 +529,48 @@ Selecionar as colunas - Inserir - Formatar como Tabela - Minha tabela tem cabeç
 
 O resultado será a figura abaixo:
 
-### Figura 56:
+### Figura 55:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/3da1508b-8ac1-45de-869f-89d81415055e)
 
 
 Agora, iremos incluir ícones (bolinh vermelha/verde) para os valores de média da categoria que ultrapassarem os valores da Média Geral.
 
-Para isso selecionamos a coluna Maximum Price Per Nos Média - Formatação Condicional - Conjunto de ícones - Mais Regras (ver Figura 57). 
+Para isso selecionamos a coluna Maximum Price Per Nos Média - Formatação Condicional - Conjunto de ícones - Mais Regras (ver Figura 56). 
 
-### Figura 57:
+### Figura 56:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/6448d50c-5ae1-4b25-bc77-d9b46032e4b1)
 
 
 E então, o resultado dessa opção será essa tela: 
 
-### Figura 58:
+### Figura 57:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/c9575134-6bd8-4f4f-aff4-ed28209c64fb)
 
 Ao clicarmos em Ok, será feita a seguinte formatação. 
 
-### Figura 59:
+### Figura 58:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/57962eaf-2cc4-47d2-8791-6dd09b3f33f1)
 
 No entanto, desejamos realçar como negativo (cor vermelha) os valores acima da média e não os que estão abaixo. Sendo assim, teremos que modificar uma opção na tela de Gerenciar Regras. 
 
-Ao invés das opções da sequência abaixo (figura 60), vamos aplicar a sequência da figura 61.
+Ao invés das opções da sequência abaixo (figura 59), vamos aplicar a sequência da figura 60.
 
-### Figura 60:
+### Figura 59:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/84c03b70-bb85-4f37-9e4a-483b7f1399bf)
 
 
-### Figura 61: 
+### Figura 60: 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/3710df0e-3c98-4a24-a13c-ad44c8e6f01d)
 
 Alterando a configuração e clicando em Ok, o resultado em nossa tabela será este: 
 
-### Figura 62:
+### Figura 61:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/90e73eaf-f732-4380-bf29-7c1598952de9)
 
@@ -581,7 +581,7 @@ Então, copiamos essa tabela para fora dessa formatação de tabela e obteremos 
 
 Para essa análise, vamos reproduzir o mesmo passo a passo da análise anterior e obteremos a visualização abaixo (tabela 2). 
 
-### Figura 63:
+### Figura 62:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/47c8d113-af81-4d04-be32-dc644dafe104)
 
@@ -592,18 +592,18 @@ na confecção das outras análises.
 
 No entanto, diferentemente das análises anteriores, vamos produzir tabelas para os diferentes de tipos de peças de forma individual. 
 
-Para isso, dado a tabela dinâmica, podemos filtrar, por exemplo, a coluna One-Off, o quê retornará apenas as informações dessa coluna (ver figura 64). 
+Para isso, dado a tabela dinâmica, podemos filtrar, por exemplo, a coluna One-Off, o quê retornará apenas as informações dessa coluna (ver figura 63). 
 
 Clicar com botão esquerdo no campo Rótulo de Linha e selecionar a categoria One-Off por exemplo.
 
-### Figura 64: 
+### Figura 63: 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/f87852cd-b9bf-499e-a957-f7483caad1fa)
 
 Desse filtro, podemos copiar as informações da tabela dinâmica para outras células limpas e alterar a formatação. Ao final, teremos essa tabela que contém a quantidade total de peças
 da categoria One Off por diferente situação de estoque (chamaremos de tabela 3). As tabelas correlatas para as peças de tipo Just in Time (tabela 4) e Fast Moving Item (tabela 5) - Ver figura abaixo.
 
-### Figura 65:
+### Figura 64:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/49f673a3-3400-4ce4-979c-fb0f19db3861)
 
@@ -618,15 +618,15 @@ Pensando que o objetivo inicial de nossa análise é identificar uma possível s
 
 Para isso, podemos abrir uma nova planiha em nossa base de dados, no botão + na extremidade esquerda de nosso arquivo. Para filtrar as colunas com as condições que desejamos, podemos utilizar a função FILTRO do Excel. 
 
-Desejamos filtrar do dataset original, unicamente as colunas spare part type = One Off e current stock level has min = No/Same (ver Figura 66:)
+Desejamos filtrar do dataset original, unicamente as colunas spare part type = One Off e current stock level has min = No/Same (ver Figura 65:)
 
-### Figura 66:
+### Figura 65:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/744115b9-1dd4-4502-ba19-97ab2561004b)
 
-Na fórmula FILTRO do Excel, o "*" significa "E" enquanto que o "+" significa "OU". Aplicando a fórmula, obtivemos todas as linhas do dataset original que respeitam as condições estipuladas (ver Figura 67).
+Na fórmula FILTRO do Excel, o "*" significa "E" enquanto que o "+" significa "OU". Aplicando a fórmula, obtivemos todas as linhas do dataset original que respeitam as condições estipuladas (ver Figura 66).
 
-### Figura 67:
+### Figura 66:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/72968d20-8a9a-48d6-8569-70442e9f02e9)
 
@@ -652,9 +652,9 @@ Após ligação com a secretaria da gestão, foi definido que a listagem das pe�
 A gestão hospitalar gostaria de visualizar o resultado das análises em uma apresentação de Power Point a ser enviada pelo email pelo Analista de Dados previamente antes da reunião. (arquivo de nome
 "presentation"). Foi sinalizado que essa apresentação deve ser o mais objetiva possível, servindo apenas para dar o start das discussões que se desenvolverão a partir dos achados da análise.
 
-Vamos salvar todas os gráficos e tabelas dessa análise pois depois as incluíremos na apresentação. Para isso, podemos dar botão direito no gráfico/tabela - Salvar como imagem - nomear o arquivo e selecionar a pasta para o salvamento. (ver Figura 68).
+Vamos salvar todas os gráficos e tabelas dessa análise pois depois as incluíremos na apresentação. Para isso, podemos dar botão direito no gráfico/tabela - Salvar como imagem - nomear o arquivo e selecionar a pasta para o salvamento. (ver Figura 67).
 
-### Figura 68:
+### Figura 67:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/96af1f9a-c9c1-4c7b-a305-42981624debf)
 
