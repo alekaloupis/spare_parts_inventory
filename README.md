@@ -1,4 +1,4 @@
-# Spare Parts Inventory
+# Spare Parts Inventory (Ainda em desenvolvimento)
 
 dataset: https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-parts-inventories-datasets?resource=download
 
