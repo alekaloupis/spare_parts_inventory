@@ -337,7 +337,7 @@ O resultado será esse (Figura 31).
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/25711d26-4edb-45ce-a660-17ba84ee3c64)
 
-Clicando na caixa do título, podemos alterar a sua formatação, incluindo outra letra, tamanho. No caso abaixo, trocamos o conteúdo do título a letra de Calibri para Arial, negrito e tamanho 18 (ver Figura 32). 
+Clicando na caixa do título, podemos alterar a sua formatação, incluindo outra letra, tamanho. No caso abaixo, trocamos o conteúdo do título, modificamos a letra de Calibri para Arial, selecionamos a opção Negrito e tamanho 18 (ver Figura 32). 
 
 ### Figura 32: 
 
