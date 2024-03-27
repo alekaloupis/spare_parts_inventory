@@ -9,10 +9,11 @@ dataset: https://www.kaggle.com/datasets/mohdkhidir/medical-equipment-spare-part
 Dentro de uma institução hospitalar, nos últimos meses, houveram algumas interrupções na assistência aos pacientes devido à danificação de peças de equipamentos médicos.
 Além disso, foi mapeado que esses transtornos estavam relacionadas à danificação de peças one-off, consideradas raras e com processo de fabricação específico. 
 
-Sendo que a danificação das peças em uso e a não imediata reposição das mesmas impactaram na retomada do atendimento. A gestão considera de valor estratégico manter formas saudáveis de obtenção, garantir estoque para evitar novos transtornos e interrupções na rotina. E para isso, deseja discutir ações específicas em relação a essas peças e conta com o auxílio do analista de dados da empresa, profissional capaz de levantar dados e realizar análises. Atualmente, existe um inventário das peças sobressaletes, a saber peças disponíveis para reposição das peças em uso. E a partir desse inventário, a gestao hospitalar solicitou uma análise para averigurar a existência de indícios que constatem ou não uma situação de vulnerabilidade do hospital em relação a essas peças one-off. Dentre esses indícios, poderíamos citar: ausência de quantidade mínima, dificuldades de acesso, formas de aquisição, custos de aquisição.
+Sendo que a danificação das peças em uso e a não imediata reposição das mesmas impactaram na retomada do atendimento. A gestão considera de valor estratégico manter formas saudáveis de obtenção, garantir estoque para evitar novos transtornos e interrupções na rotina. E para isso, deseja discutir ações específicas em relação a essas peças e conta com o auxílio do analista de dados da empresa, profissional capaz de levantar dados e realizar análises. 
 
-Além disso, foi demandado a listagem das peças alvo em situação de vulnerabilidade. Por fim, foi solicitado que da análise, o analista apresente seus principais achados em uma reunião e elabore uma apresentação em Power Point.
+Atualmente, existe um inventário das peças sobressalenes, a saber peças disponíveis para reposição das peças em uso. E a partir desse inventário, a gestão solicitou uma análise para averigurar a existência de indícios que constatem ou não uma situação de vulnerabilidade do hospital em relação às peças one-off. Dentre esses indícios, poderíamos citar: ausência de quantidade mínima, dificuldades de acesso, formas de aquisição, custos de aquisição.
 
+Além disso, foi demandado a listagem das peças alvo com estoque reduzido. Por fim, foi sinalizado que a partir dos achados da análise, o analista apresente um resumo em uma reunião e traga uma apresentação em Power Point explicativa.
 
 # 2. Solução
 
