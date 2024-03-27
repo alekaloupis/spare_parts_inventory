@@ -272,7 +272,7 @@ Assim, nosso gráfico perde os botões de campos e filtros e fica mais limpo con
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/159147a7-a490-4b27-a712-eb41e4ca9719)
 
-Prosseguindo com a nossa limpeza, podemos eliminar esa linha de grade vertical, seguindo a opção abaixo (ver Figura 23):
+Prosseguindo com a nossa limpeza, podemos eliminar essa linha de grade vertical, seguindo a opção abaixo (ver Figura 23):
 
 ### Figura 23: 
 
