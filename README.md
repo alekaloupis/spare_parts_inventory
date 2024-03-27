@@ -614,9 +614,7 @@ Para os propósitos dessa análise, vamos considerar que Current Stock Level Has
 
 ### 2.2.6 Criando um dataset com os dados das peças One-Off com situação vulnerável de estoque
 
-Pensando que o objetivo inicial de nossa análise é identificar uma possível situação de vulnerabilidade das peças sobressalentes de tipo one-off, vamos criar um dataset unicamente com essas peças. 
-
-Para isso, podemos abrir uma nova planiha em nossa base de dados, no botão + na extremidade esquerda de nosso arquivo. Para filtrar as colunas com as condições que desejamos, podemos utilizar a função FILTRO do Excel. 
+Um dos objetivos da análise era o de produzir um listagem com as peças one-off em situação de vulnerabilidade.Para isso, podemos abrir uma nova planiha em nossa base de dados, no botão + na extremidade esquerda de nosso arquivo. Para filtrar as colunas com as condições que desejamos, podemos utilizar a função FILTRO do Excel. 
 
 Desejamos filtrar do dataset original, unicamente as colunas spare part type = One Off e current stock level has min = No/Same (ver Figura 65:)
 
@@ -657,9 +655,6 @@ Vamos salvar todas os gráficos e tabelas dessa análise pois depois as incluír
 ### Figura 67:
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/96af1f9a-c9c1-4c7b-a305-42981624debf)
-
-
-Sendo que no momento da reunião, o analista se encarregará de apresentar os resultados.
 
 
 # 4. Próximos passos
