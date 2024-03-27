@@ -23,6 +23,8 @@ Essa análise exploratória será feita utilizando Excel e Power Query, ferramen
 
 ### Passo 1: Abrir um Excel vazio e carregar os dados a partir das sinalizações das imagens abaixo (Figuras 1 e 2):
 
+dataset original: KL HKL - Spare Part Inventories
+
 ##### Figura1: 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/907a84d7-24b0-4001-94cb-986e0b13e5b9)
@@ -643,7 +645,7 @@ Podemos efetuar essa tarefa manualmente uma vez que não poderemos utilizar o ed
 
 Após ligação com a secretaria da gestão, foi definido que a listagem das peças one-off deveria ser enviada por email em formato csv. Então, iremos copiar a tabela que contém apenas as peças one-off para outro arquivo csv, salvar e  encaminhar por email. (arquivo "only_one_off" compartilhado aqui neste repositório).
 
-
+Por fim todos os tratamentos de dados, gráficos e tabelas estarão disponíveis para visualização no documento dataset
 
 # 3. Insights
 
