@@ -185,7 +185,7 @@ Terminadas os tratamentos, podemos finalmente clicar na opção Fechar e carrega
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/0a50b642-f606-461f-944f-6cde6cf5ec91)
 
-Ao Fechar a Carregar, abrimos uma aba da Planilha e podemos remomeá-la para dataset conforme sinaliza a Figura 10 abaixo:
+Ao Fechar a Carregar, abrimos uma aba da Planilha e podemos remomeá-la para dataset. (ver Figura 10).
 
 
 ### Figura 10:
