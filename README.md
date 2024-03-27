@@ -252,7 +252,7 @@ O resultado obtido é este gráfico de colunas que consta na imagem abaixo (Figu
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/c43b267f-e200-433d-8ef0-a244a1d2be75)
 
-No entanto, considerando que ele está poluído, vamos fazer algumas tratativas nele. No lado superior direito, temos a opção Botões de Campos (Figura 20).
+Feito o gráfico, agora podemos proceder com alguns tratamentos. No lado superior direito, temos a opção Botões de Campos (Figura 20).
 
 Ao clicar nela, podemos selecionar a opção Ocultar tudo (Figura 21). 
 
