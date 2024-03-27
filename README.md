@@ -488,11 +488,17 @@ Então, somando essa formatação com a aplicação de formatações semelhantes
 
 ## 2.2.3 Quantity x Spare Part Type x Specify
 
-Agora vamos trabalhar com a análise de dois níveis, a saber colunas Spare Part Type e Specify para quantidade de peças.Nessa análise, aplicaremos rigorosamente as mesmas regras de formatação das que foram aplicadas na análise anterior, resultando no seguinte gráfico (Gráfico 3), ver figura 52 que é semelhante ao gráfico 2
+Agora vamos trabalhar com a análise de dois níveis, a saber colunas Spare Part Type e Specify para quantidade de peças.Nessa análise, aplicaremos rigorosamente as mesmas regras de formatação das que foram aplicadas na análise anterior, resultando no seguinte gráfico (Gráfico 3). que é semelhante ao gráfico 2.
 
-### Figura 52: 
+### Figura 51: 
 
-![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/e483e055-65ea-43c8-9be6-59529954c586)
+![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/87b29838-ae37-4e02-8dea-426cd501029b)
+
+Os valores das colunas Others do Gráfico 2 e Vendor by Purchase Order do Gráfico 3 são essencialmente iguais, a saber 18,4%. Para nos certificarmos da correspondência entre essas categorias, retornamos no dataset e filtramos o valor Others na coluna Specify e obervamos o comportamento. No caso, todas essas linhas filtradas também possuem o valor da coluna Specify = Vendor by Purchase Order. 
+
+O quê nos leva a concluir que todas as peças Location = Others são peças que não estão sob controle da empresa diretamente, mas, sim, possivelmente, sob controle imediato do fornecedor ou de um subcontratado do fornecedor.
+
+
 
 ### 2.2.4 Spare Part Type x Maximum Price Per Nos
 
