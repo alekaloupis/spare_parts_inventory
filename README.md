@@ -393,7 +393,7 @@ Para isso, podemos clicar na primeira barra (Just In Time) e alterar a Cor para 
 
 ![image](https://github.com/alekaloupis/spare_parts_inventory/assets/107442506/48040eec-1fc8-49af-8a8b-62261fb1d240)
 
-E vamos realçar a borda, indo nesta opção e selecionando a opção de cor preta (ver Figura 39). 
+E vamos realçar a borda: clicando na opção e selecionando a opção de cor preta abaixo (ver Figura 39). 
 
 ### Figura 39:
 
